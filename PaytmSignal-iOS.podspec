@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
     s.source_files = "PaytmAnalytics.framework/Headers/*.h"
     s.vendored_frameworks = "PaytmAnalytics.framework"
     s.platform = :ios
-    s.swift_version = "4.0"
+    s.swift_version = "5.0"
     s.ios.deployment_target = '10.0'
 end
