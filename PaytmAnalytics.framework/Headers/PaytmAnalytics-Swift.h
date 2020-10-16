@@ -205,21 +205,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@protocol PAAnalyticProtocol;
 
 SWIFT_CLASS("_TtC14PaytmAnalytics17PAAnalyticManager")
 @interface PAAnalyticManager : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PAAnalyticManager * _Nonnull shared;)
-+ (PAAnalyticManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-+ (void)setShared:(PAAnalyticManager * _Nonnull)value;
-@property (nonatomic, strong) id <PAAnalyticProtocol> _Nullable analyticDelegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_PROTOCOL("_TtP14PaytmAnalytics18PAAnalyticProtocol_")
-@protocol PAAnalyticProtocol
-@property (nonatomic, readonly, copy) NSString * _Nullable userID;
 @end
 
 
@@ -231,12 +220,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics13PABaseSession")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics15PAConfiguration")
 @interface PAConfiguration : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC14PaytmAnalytics10PAConstant")
-@interface PAConstant : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -282,23 +265,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics8PANCUser")
 @end
 
 
-SWIFT_CLASS("_TtC14PaytmAnalytics19PANetworkDispatcher")
-@interface PANetworkDispatcher : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PANetworkDispatcher * _Nonnull shared;)
-+ (PANetworkDispatcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-@interface PANetworkDispatcher (SWIFT_EXTENSION(PaytmAnalytics))
-- (void)dispatch;
-@end
-
-
-
-
 SWIFT_CLASS("_TtC14PaytmAnalytics16PANetworkSession")
 @interface PANetworkSession : PABaseSession
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -307,24 +273,9 @@ SWIFT_CLASS("_TtC14PaytmAnalytics16PANetworkSession")
 
 
 
-SWIFT_CLASS("_TtC14PaytmAnalytics18PASignalDispatcher")
-@interface PASignalDispatcher : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PASignalDispatcher * _Nonnull shared;)
-+ (PASignalDispatcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface PASignalDispatcher (SWIFT_EXTENSION(PaytmAnalytics))
-- (void)dispatch;
-@end
-
-
-
-
 SWIFT_CLASS("_TtC14PaytmAnalytics11PASignalLog")
 @interface PASignalLog : NSObject <NSCoding>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_MSG("The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead");
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
@@ -335,8 +286,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics15PASignalSession")
 @interface PASignalSession : PABaseSession
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 
@@ -551,21 +500,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@protocol PAAnalyticProtocol;
 
 SWIFT_CLASS("_TtC14PaytmAnalytics17PAAnalyticManager")
 @interface PAAnalyticManager : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PAAnalyticManager * _Nonnull shared;)
-+ (PAAnalyticManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-+ (void)setShared:(PAAnalyticManager * _Nonnull)value;
-@property (nonatomic, strong) id <PAAnalyticProtocol> _Nullable analyticDelegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_PROTOCOL("_TtP14PaytmAnalytics18PAAnalyticProtocol_")
-@protocol PAAnalyticProtocol
-@property (nonatomic, readonly, copy) NSString * _Nullable userID;
 @end
 
 
@@ -577,12 +515,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics13PABaseSession")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics15PAConfiguration")
 @interface PAConfiguration : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC14PaytmAnalytics10PAConstant")
-@interface PAConstant : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -628,23 +560,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics8PANCUser")
 @end
 
 
-SWIFT_CLASS("_TtC14PaytmAnalytics19PANetworkDispatcher")
-@interface PANetworkDispatcher : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PANetworkDispatcher * _Nonnull shared;)
-+ (PANetworkDispatcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-@interface PANetworkDispatcher (SWIFT_EXTENSION(PaytmAnalytics))
-- (void)dispatch;
-@end
-
-
-
-
 SWIFT_CLASS("_TtC14PaytmAnalytics16PANetworkSession")
 @interface PANetworkSession : PABaseSession
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -653,24 +568,9 @@ SWIFT_CLASS("_TtC14PaytmAnalytics16PANetworkSession")
 
 
 
-SWIFT_CLASS("_TtC14PaytmAnalytics18PASignalDispatcher")
-@interface PASignalDispatcher : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PASignalDispatcher * _Nonnull shared;)
-+ (PASignalDispatcher * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface PASignalDispatcher (SWIFT_EXTENSION(PaytmAnalytics))
-- (void)dispatch;
-@end
-
-
-
-
 SWIFT_CLASS("_TtC14PaytmAnalytics11PASignalLog")
 @interface PASignalLog : NSObject <NSCoding>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_MSG("The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead");
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
@@ -681,8 +581,6 @@ SWIFT_CLASS("_TtC14PaytmAnalytics15PASignalSession")
 @interface PASignalSession : PABaseSession
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 

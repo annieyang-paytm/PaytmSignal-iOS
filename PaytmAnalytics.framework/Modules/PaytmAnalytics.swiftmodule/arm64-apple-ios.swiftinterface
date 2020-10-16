@@ -43,14 +43,31 @@ extension Data {
   public func gzipped(level: PaytmAnalytics.CompressionLevel = .defaultCompression) throws -> Foundation.Data
   public func gunzipped() throws -> Foundation.Data
 }
-@objc public protocol PAAnalyticProtocol {
-  @objc var userID: Swift.String? { get }
+public protocol PAAnalyticProtocol {
+  var userID: Swift.String? { get }
 }
 @objc public class PAAnalyticManager : ObjectiveC.NSObject {
-  @objc public static var shared: PaytmAnalytics.PAAnalyticManager
-  @objc public var analyticDelegate: PaytmAnalytics.PAAnalyticProtocol?
+  public static var shared: PaytmAnalytics.PAAnalyticManager
+  public var analyticDelegate: PaytmAnalytics.PAAnalyticProtocol?
   @objc override dynamic public init()
   @objc deinit
+}
+@objc public class PABaseSession : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class PAConfiguration : ObjectiveC.NSObject {
+  public static func initializeSignalSession(clientId: Swift.String, secretKey: Swift.String, signalEndpointDomain: Swift.String, loggingEnabled: Swift.Bool = false, dispatchStrategy: PaytmAnalytics.DispatchStrategy = .intervalBased(interval: 10.0), maxBatchSizeToUpload: Swift.Int = 10, maxBatchSizeToCapture: Swift.Int = 2000, buildType: PaytmAnalytics.PABuildType = .release)
+  @available(*, deprecated, message: "This method is deprecated now, please use PAConfiguration.initializeSignalSession() instead")
+  public static func initializePASignalSession(with clientId: Swift.String, secretKey: Swift.String, uniqueIdentifier: Swift.String = "", loggingEnabled: Swift.Bool = false, dispatchStrategy: PaytmAnalytics.DispatchStrategy = .intervalBased(interval: 10.0), dispatchInterval: Foundation.TimeInterval = 10.0, maxBatchSizeToUpload: Swift.Int = 10, maxBatchSizeToCapture: Swift.Int = 2000, appOpenTime: Swift.String = String(UInt64((Date().timeIntervalSince1970 * 1000).rounded(.down))), buildType: PaytmAnalytics.PABuildType = .release)
+  public static func initializePANetworkSession(withUniqueIdentifier uniqueIdentifier: Swift.String = "", isLogginEnabled loggingEnabled: Swift.Bool = false, withDispatchStrategy dispatchStrategy: PaytmAnalytics.DispatchStrategy = .manual, withDispatchInterval dispatchInterval: Foundation.TimeInterval = 10.0, andMaxBatchSizeToUpload maxBatchSizeToUpload: Swift.Int = 50, andMaxBatchSizeToCapture maxBatchSizeToCapture: Swift.Int = 2000, andRequestUrl urlString: Swift.String = "", withOrigin origin: Swift.String = "", withAppId appId: Swift.String = "", withClientId clientId: Swift.String = "", withAppSecret appSecret: Swift.String = "", andBuildType buildType: PaytmAnalytics.PABuildType = .release)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum DispatchStrategy {
+  case manual
+  case intervalBased(interval: Foundation.TimeInterval)
+  case background
 }
 public enum PABuildType {
   case debug
@@ -61,81 +78,6 @@ public enum PABuildType {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
-}
-@objc public class PABaseSession : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class PAConfiguration : ObjectiveC.NSObject {
-  public static func initializePASignalSession(with clientId: Swift.String, secretKey: Swift.String, uniqueIdentifier: Swift.String = PAConstant.PA_EVENT_DEFAULT_UNIQUE_ID, loggingEnabled: Swift.Bool = PAConstant.PA_EVENT_DEFAULT_LOGGING_ENABLED, dispatchStrategy: PaytmAnalytics.DispatchStrategy = PAConstant.PA_EVENT_DEFAULT_DISPATCH_STRATEGY, dispatchInterval: Foundation.TimeInterval = PAConstant.PA_NC_DEFAULT_DISPATCH_INTERVAL, maxBatchSizeToUpload: Swift.Int = PAConstant.PA_EVENT_DEFAULT_MAX_BATCH_UPLOAD, maxBatchSizeToCapture: Swift.Int = PAConstant.PA_EVENT_DEFAULT_MAX_BATCH_CAPTURE, appOpenTime: Swift.String = String(UInt64((Date().timeIntervalSince1970 * 1000).rounded(.down))), buildType: PaytmAnalytics.PABuildType = .release)
-  public static func initializePANetworkSession(withUniqueIdentifier uniqueIdentifier: Swift.String = PAConstant.PA_NC_DEFAULT_UNIQUE_ID, isLogginEnabled loggingEnabled: Swift.Bool = PAConstant.PA_NC_DEFAULT_LOGGING_ENABLED, withDispatchStrategy dispatchStrategy: PaytmAnalytics.DispatchStrategy = PAConstant.PA_NC_DEFAULT_DISPATCH_STRATEGY, withDispatchInterval dispatchInterval: Foundation.TimeInterval = PAConstant.PA_NC_DEFAULT_DISPATCH_INTERVAL, andMaxBatchSizeToUpload maxBatchSizeToUpload: Swift.Int = PAConstant.PA_NC_DEFAULT_MAX_BATCH_UPLOAD, andMaxBatchSizeToCapture maxBatchSizeToCapture: Swift.Int = PAConstant.PA_NC_DEFAULT_MAX_BATCH_CAPTURE, andRequestUrl urlString: Swift.String = "", withOrigin origin: Swift.String = "", withAppId appId: Swift.String = "", withClientId clientId: Swift.String = "", withAppSecret appSecret: Swift.String = "", andBuildType buildType: PaytmAnalytics.PABuildType = .release)
-  @objc override dynamic public init()
-  @objc deinit
-}
-public enum DispatchStrategy {
-  case manual
-  case intervalBased
-  case background
-  public static func == (a: PaytmAnalytics.DispatchStrategy, b: PaytmAnalytics.DispatchStrategy) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-  public func hash(into hasher: inout Swift.Hasher)
-}
-@objc public class PAConstant : ObjectiveC.NSObject {
-  public static var PA_NC_DEFAULT_UNIQUE_ID: Swift.String {
-    get
-  }
-  public static var PA_NC_DEFAULT_LOGGING_ENABLED: Swift.Bool {
-    get
-  }
-  public static var PA_NC_DEFAULT_DISPATCH_STRATEGY: PaytmAnalytics.DispatchStrategy {
-    get
-  }
-  public static var PA_NC_DEFAULT_DISPATCH_INTERVAL: Foundation.TimeInterval {
-    get
-  }
-  public static var PA_NC_DEFAULT_MAX_BATCH_UPLOAD: Swift.Int {
-    get
-  }
-  public static var PA_NC_DEFAULT_MAX_BATCH_CAPTURE: Swift.Int {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_UNIQUE_ID: Swift.String {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_LOGGING_ENABLED: Swift.Bool {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_DISPATCH_STRATEGY: PaytmAnalytics.DispatchStrategy {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_DISPATCH_INTERVAL: Foundation.TimeInterval {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_MAX_BATCH_UPLOAD: Swift.Int {
-    get
-  }
-  public static var PA_EVENT_DEFAULT_MAX_BATCH_CAPTURE: Swift.Int {
-    get
-  }
-  public static var SIGNALV2_BATCH_SIZE_LIMIT: Swift.Int {
-    get
-  }
-  public static var SIGNALV2_ENDPOINT_DEBUG: Swift.String {
-    get
-  }
-  public static var SIGNALV2_ENDPOINT_RELEASE: Swift.String {
-    get
-  }
-  public static var XREQUESTER_HEADER: Swift.String {
-    get
-  }
-  public static var HMAC_HEADER: Swift.String {
-    get
-  }
-  @objc override dynamic public init()
-  @objc deinit
 }
 @objc final public class PANCEvent : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc override dynamic public init()
@@ -238,28 +180,12 @@ public enum DispatchStrategy {
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-@objc public class PANetworkDispatcher : ObjectiveC.NSObject {
-  @objc public static let shared: PaytmAnalytics.PANetworkDispatcher
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension PANetworkDispatcher {
-  @objc dynamic public func dispatch()
-}
 @objc public class PANetworkSession : PaytmAnalytics.PABaseSession {
   public static let shared: PaytmAnalytics.PANetworkSession
   public func push(withPANCEvent networkEvent: PaytmAnalytics.PANCEvent)
   public func flushData()
   @objc override dynamic public init()
   @objc deinit
-}
-@objc public class PASignalDispatcher : ObjectiveC.NSObject {
-  @objc public static let shared: PaytmAnalytics.PASignalDispatcher
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension PASignalDispatcher {
-  @objc dynamic public func dispatch()
 }
 @objc final public class PASignalLog : ObjectiveC.NSObject, Foundation.NSCoding {
   final public var deviceId: Swift.String?
@@ -278,9 +204,9 @@ extension PASignalDispatcher {
   final public var deviceGeoLatitude: Swift.String?
   final public var deviceGeoLongitude: Swift.String?
   final public var payload: [Swift.String : Any]?
+  @available(*, deprecated, message: "The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead")
   @objc override dynamic public init()
-  convenience public init?(eventType: Swift.String, timestamp: Swift.String, payload: [Swift.String : Any], deviceID: Swift.String? = nil, customerID: Swift.String? = nil)
-  final public func dictionaryRepresentation() -> [Swift.String : Any]
+  required public init?(eventType: Swift.String, timestamp: Foundation.Date, payload: [Swift.String : Any], deviceID: Swift.String? = nil, customerID: Swift.String? = nil)
   @objc final public func encode(with aCoder: Foundation.NSCoder)
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   @objc override final public var description: Swift.String {
@@ -291,11 +217,10 @@ extension PASignalDispatcher {
 @objc public class PASignalSession : PaytmAnalytics.PABaseSession {
   public static let shared: PaytmAnalytics.PASignalSession
   public func push(withPASignalLog signalLog: PaytmAnalytics.PASignalLog)
+  @available(*, deprecated, renamed: "sendCriticalEvents(_:completion:)")
   public func pushCriticalEvent(withPASignalLog signalLogs: [PaytmAnalytics.PASignalLog], completion: ((Swift.Bool, [PaytmAnalytics.PASignalLog]?) -> ())?)
+  public func sendCriticalEvents(_ signalLogs: [PaytmAnalytics.PASignalLog], completion: ((Swift.Bool, [PaytmAnalytics.PASignalLog]?) -> Swift.Void)?)
   @objc override dynamic public init()
   @objc deinit
 }
-extension PaytmAnalytics.PABuildType : Swift.Equatable {}
 extension PaytmAnalytics.PABuildType : Swift.Hashable {}
-extension PaytmAnalytics.DispatchStrategy : Swift.Equatable {}
-extension PaytmAnalytics.DispatchStrategy : Swift.Hashable {}
