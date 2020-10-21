@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = "PaytmSignal-iOS"
     s.module_name  = "PaytmAnalytics"
-    s.version      = "10.1.0"
+    s.version      = "10.2.0"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
      - Refactor code structure in all aspects such as CoreData, signal dispatcher, session multi-thread interactions and classes/methods cleanup;
