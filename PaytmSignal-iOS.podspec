@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.version      = "10.2.0"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
-     - Refactor code structure in all aspects such as CoreData, signal dispatcher, session multi-thread interactions and classes/methods cleanup;
-     - Mark some less-dependable methods as deprecated, improve logging and fix bugs.
+     - Add default values for initialization methods to simplify the workload
+     - Add a new public interface (PASignalManager) to allow the app to access methods of sdk setup and signal session while remove the previous access methods.
     DESC
     s.homepage     = "https://wiki.mypaytm.com/display/MAP/PaytmSignal-iOS+SDK+Integration"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
