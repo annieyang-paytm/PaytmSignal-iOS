@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
     s.name         = "PaytmSignal-iOS"
     s.module_name  = "PaytmAnalytics"
-    s.version      = "10.2.0"
+    s.version      = "10.2.1"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
-     - Add default values for initialization methods to simplify the workload
-     - Add a new public interface (PASignalManager) to allow the app to access methods of sdk setup and signal session while remove the previous access methods.
+    Add the newly released iPhone 12 series to the device model list
     DESC
     s.homepage     = "https://wiki.mypaytm.com/display/MAP/PaytmSignal-iOS+SDK+Integration"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
