@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.0 (clang-1100.0.33.17)
-/Users/yongxiao/Documents/jarvis-analytics-ios/Example/Pods/Target Support Files/PaytmAnalytics/PaytmAnalytics-dummy.m
-/Users/yongxiao/Documents/jarvis-analytics-ios/Example/Pods
+/Users/annieyang/Developer/JenxierLtd/signal_v2/Example/Pods/Target Support Files/PaytmAnalytics/PaytmAnalytics-dummy.m
+/Users/annieyang/Developer/JenxierLtd/signal_v2/Example/Pods
 _$s14PaytmAnalytics16CompressionLevelVSYAASY8rawValuexSg03RawF0Qz_tcfCTW
 _$s14PaytmAnalytics16CompressionLevelVSYAASY8rawValue03RawF0QzvgTW
 _$s14PaytmAnalytics9GzipErrorV4KindOSQAASQ2eeoiySbx_xtFZTW
@@ -143,7 +143,7 @@ ___swift_reflection_version
 Apple clang version 11.0.0 (clang-1100.0.33.15)
 <swift-imported-modules>
 Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Gzip/DataGzip.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Gzip/DataGzip.swift
 $sSo10z_stream_sVwst
 <compiler-generated>
 $sSo10z_stream_sVwet
@@ -207,7 +207,7 @@ insert
 intersection
 $s14PaytmAnalytics15PASignalManagerC24initializeNetworkSession5appId6origin06clientI09secretKey10requestUrl14loggingEnabled16dispatchStrategy20maxBatchSizeToUpload0tuvW7Capture9buildTypeySS_S4SSbAA08DispatchS0OS2iAA11PABuildTypeOtFfA7_
 PaytmAnalytics/Classes/Manager/PASignalManager.swift
-/Users/yongxiao/Documents/jarvis-analytics-ios
+/Users/annieyang/Developer/JenxierLtd/signal_v2
 $s14PaytmAnalytics15PASignalManagerC24initializeNetworkSession5appId6origin06clientI09secretKey10requestUrl14loggingEnabled16dispatchStrategy20maxBatchSizeToUpload0tuvW7Capture9buildTypeySS_S4SSbAA08DispatchS0OS2iAA11PABuildTypeOtFfA6_
 $s14PaytmAnalytics15PASignalManagerC24initializeNetworkSession5appId6origin06clientI09secretKey10requestUrl14loggingEnabled16dispatchStrategy20maxBatchSizeToUpload0tuvW7Capture9buildTypeySS_S4SSbAA08DispatchS0OS2iAA11PABuildTypeOtFfA5_
 $s14PaytmAnalytics15PASignalManagerC24initializeNetworkSession5appId6origin06clientI09secretKey10requestUrl14loggingEnabled16dispatchStrategy20maxBatchSizeToUpload0tuvW7Capture9buildTypeySS_S4SSbAA08DispatchS0OS2iAA11PABuildTypeOtFfA4_
@@ -310,7 +310,7 @@ _symbolic _____ 14PaytmAnalytics17PAAnalyticManagerC
 _symbolic ______pSg 14PaytmAnalytics18PAAnalyticProtocolP
 _$s14PaytmAnalytics17PAAnalyticManagerCMF
 _objc_classes
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Session/PAAnalyticProtocol.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Session/PAAnalyticProtocol.swift
 $s14PaytmAnalytics18PAAnalyticProtocol_pSgWOh
 deinit
 $s14PaytmAnalytics17PAAnalyticManagerCMa
@@ -370,7 +370,7 @@ _$s14PaytmAnalytics13PABaseSessionC9buildTypeAA07PABuildF0OvsTq
 _$s14PaytmAnalytics13PABaseSessionC9buildTypeAA07PABuildF0OvMTq
 _$s14PaytmAnalytics13PABaseSessionCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics13PABaseSession
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Session/PABaseSession.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Session/PABaseSession.swift
 $s14PaytmAnalytics16DispatchStrategyOWOb
 $s14PaytmAnalytics13PABaseSessionCMa
 _globalinit_33_E870D5A73C11567FB6588621385B464C_func20
@@ -442,7 +442,7 @@ _$s14PaytmAnalytics9PALogTypeOSYAAMc
 _$s14PaytmAnalytics9PALogTypeOSHAAMc
 _$s14PaytmAnalytics9PALogTypeOSQAAMc
 _$s14PaytmAnalytics9PALogTypeON
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/shared/PAConstant.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/shared/PAConstant.swift
 $s14PaytmAnalytics9PALogTypeOSHAASQWb
 $s14PaytmAnalytics9PALogTypeOACSQAAWl
 $s14PaytmAnalytics9PALogTypeOMa
@@ -534,7 +534,7 @@ _$s14PaytmAnalytics17PACoreDataManagerC21performBackgroundTask0F5Block10completi
 _$s14PaytmAnalytics17PACoreDataManagerC30isUsingInMemoryPersistentStoreSbvgTq
 _$s14PaytmAnalytics17PACoreDataManagerCACycfCTq
 _$s14PaytmAnalytics17PACoreDataManagerCN
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/CoreData/PACoreDataManager.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/CoreData/PACoreDataManager.swift
 objectdestroy.11
 $s14PaytmAnalytics17PACoreDataManagerC23performTaskOnMainThread33_28DBA49CD3A95B30BB5FB61EBCC713FDLL0F5BlockyySo22NSManagedObjectContextCXE_tFyyXEfU_TA
 objectdestroy.8
@@ -605,7 +605,7 @@ _$s14PaytmAnalytics12PADateHelperCMF
 _$s14PaytmAnalytics12PADateHelperC4date10Foundation4DateVvgZTq
 _$s14PaytmAnalytics12PADateHelperCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics12PADateHelper
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/shared/PADateHelper.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/shared/PADateHelper.swift
 $s10Foundation4DateVSgWOh
 $s14PaytmAnalytics12PADateHelperCMa
 getCurrentDate
@@ -708,7 +708,7 @@ _$s14PaytmAnalytics25PAEventLogCoreDataManagerC17deleteExpiredLogs12forPALogType
 _$s14PaytmAnalytics25PAEventLogCoreDataManagerC09deleteAllF012forPALogType10completionyAA0kL0O_ySbcSgtFTq
 _$s14PaytmAnalytics25PAEventLogCoreDataManagerCACycfCTq
 _$s14PaytmAnalytics25PAEventLogCoreDataManagerCN
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogCoreDataManager.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogCoreDataManager.swift
 objectdestroy.29
 $s14PaytmAnalytics25PAEventLogCoreDataManagerC22updateCurrentSessionId12forPALogType10completionyAA0mN0O_ys5Int64VcSgtFySo22NSManagedObjectContextCcfU_TA
 objectdestroy.22
@@ -744,8 +744,7 @@ $ss12_ArrayBufferV20_isNativeTypeCheckedSbvg14PaytmAnalytics9PANCEventC_Tg5
 $ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC14PaytmAnalytics9PANCEventC_Tg5Tf4nnd_n
 $ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitF14PaytmAnalytics9PANCEventC_Tg5
 _swift_stdlib_malloc_size
-Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/shims/LibcShims.h
-/Users/yongxiao
+/Applications/Xcode11.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/shims/LibcShims.h
 $ss23_ContiguousArrayStorageCy14PaytmAnalytics9PANCEventCGMa
 $ss22_ContiguousArrayBufferVAByxGycfC14PaytmAnalytics9PANCEventC_Tg5
 getStagedSignalLogsForUpload
@@ -903,7 +902,7 @@ _$s14PaytmAnalytics14PAEventLogDataC13deleteRecords9predicate15sortDescriptors10
 _$s14PaytmAnalytics14PAEventLogDataC13updateRecords9predicate15sortDescriptors10fetchLimit7context16propertyToUpdate8newValueSiSo11NSPredicateCSg_SaySo16NSSortDescriptorCGSgSiSgSo22NSManagedObjectContextCSSypSgtKFZTq
 _$s14PaytmAnalytics14PAEventLogDataCN
 _OBJC_CLASS_$_PAEventLogData
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogData+CoreDataClass.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogData+CoreDataClass.swift
 $ss11AnyHashableVWOh
 $sypWOc
 $ss11AnyHashableVWOc
@@ -949,7 +948,7 @@ $s10Foundation4DataVs23CustomStringConvertibleAAsADP11descriptionSSvgTW
 $ss5Int64Vs23CustomStringConvertiblessACP11descriptionSSvgTW
 $ss5Int64VABSzsWl
 $s14PaytmAnalytics14PAEventLogDataC16debugDescriptionSSvgTo
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogData+CoreDataProperties.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/CoreData/PAEventLogData+CoreDataProperties.swift
 _$sSS14PaytmAnalyticsE13getHmacSHA2563keySSSgSS_tF
 _$s10Foundation4DataV14PaytmAnalyticsE19getHexEncodedString7optionsSSAcDE19PAHexEncodingOptionV_tF
 _$sSa16_copyToNewBuffer8oldCountySi_tFs6UInt16V_Tg5
@@ -983,7 +982,7 @@ _$ss17_AnyCollectionBoxCySSSg5label_yp5valuetGML
 _$sSSSg5label_yp5valuetML
 _$sSSSgML
 _$ss19_AnyIteratorBoxBaseCySSSg5label_yp5valuetGML
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/shared/PAExtensions.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/shared/PAExtensions.swift
 $sSSSg5label_yp5valuetWOh
 $ss4Int8V_A255BtMa
 modelName.get
@@ -1144,7 +1143,7 @@ _$sSaySSGML
 _$sSaySSGSayxGSKsWL
 _$s14PaytmAnalytics8PAHelperCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics8PAHelper
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/shared/PAHelper.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/shared/PAHelper.swift
 hmac
 $sSaySSGSayxGSKsWl
 $sSaySSGMa
@@ -1207,7 +1206,7 @@ _$sS2Ss7CVarArg10FoundationWL
 _$sSo9OS_os_logCML
 _$s14PaytmAnalytics8PALoggerCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics8PALogger
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Logger/PALogger.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Logger/PALogger.swift
 $sS2Ss7CVarArg10FoundationWl
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZs7CVarArg_p_Tg5
 $ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgs7CVarArg_p_Tg5
@@ -1358,7 +1357,7 @@ _$s14PaytmAnalytics12PANCLocationCMf
 _symbolic _____ 14PaytmAnalytics12PANCLocationC
 _$s14PaytmAnalytics12PANCLocationCMF
 _$ss18_DictionaryStorageCySSypGML
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCEvent.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCEvent.swift
 $sSS_yptWOc
 $s14PaytmAnalytics12PANCLocationCMa
 $s14PaytmAnalytics9PANCEventCMa
@@ -1580,7 +1579,7 @@ _symbolic Say14PaytmAnalytics9PANCEventCGSg
 _$s14PaytmAnalytics7PANCLogCMF
 _$sSay14PaytmAnalytics9PANCEventCGML
 _$ss23_ContiguousArrayStorageCySDySSypGGML
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCLog.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCLog.swift
 $s14PaytmAnalytics7PANCLogCMa
 $sSay14PaytmAnalytics9PANCEventCGMa
 $ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSDySSypG_Tg5Tf4nnd_n
@@ -1710,7 +1709,7 @@ _$s14PaytmAnalytics10PANCQRDataCMf
 _symbolic _____ 14PaytmAnalytics10PANCQRDataC
 _symbolic SbSg
 _$s14PaytmAnalytics10PANCQRDataCMF
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCQRData.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCQRData.swift
 $s14PaytmAnalytics10PANCQRDataCMa
 $s14PaytmAnalytics10PANCQRDataC17SerializationKeys33_B1269DBAEC158EDE874E7F0FC6D6B762LLV15correctionLevelSSvG
 $s14PaytmAnalytics10PANCQRDataC17SerializationKeys33_B1269DBAEC158EDE874E7F0FC6D6B762LLV9qrVersionSSvG
@@ -1760,7 +1759,7 @@ _$s14PaytmAnalytics8PANCUserCML
 _$s14PaytmAnalytics8PANCUserCMf
 _symbolic _____ 14PaytmAnalytics8PANCUserC
 _$s14PaytmAnalytics8PANCUserCMF
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCUser.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/NetworkCalls/PANCUser.swift
 $s14PaytmAnalytics8PANCUserCMa
 $s14PaytmAnalytics8PANCUserC17SerializationKeys33_C3691931266D465DE84A9A7BAE5CBD3FLLV6mobileSSvG
 $s14PaytmAnalytics8PANCUserC17SerializationKeys33_C3691931266D465DE84A9A7BAE5CBD3FLLV2idSSvG
@@ -1802,7 +1801,7 @@ _block_descriptor.15
 _$s14PaytmAnalytics19PANetworkDispatcherC16startDispatchingyyFTq
 _$s14PaytmAnalytics19PANetworkDispatcherCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics19PANetworkDispatcher
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Upload/PANetworkDispatcher.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Upload/PANetworkDispatcher.swift
 $s14PaytmAnalytics19PANetworkDispatcherC21startIntervalDispatch33_56A0565A578B7DD4C07CD3E9D8A3E277LL8intervalySd_tFySo7NSTimerCcfU_TA
 $s14PaytmAnalytics19PANetworkDispatcherC21startIntervalDispatch33_56A0565A578B7DD4C07CD3E9D8A3E277LL8intervalySd_tFySo7NSTimerCcfU_
 isDispatching.get
@@ -1907,7 +1906,7 @@ _$s14PaytmAnalytics16PANetworkSessionC16sendDataToServer21withCompletionHandlery
 _$s14PaytmAnalytics16PANetworkSessionC12printAllDatayyFTq
 _$s14PaytmAnalytics16PANetworkSessionCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics16PANetworkSession
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Session/PANetworkSession.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Session/PANetworkSession.swift
 $s14PaytmAnalytics16PANetworkSessionC4push13withPANCEventyAA0G0C_tFySbcfU_TA
 objectdestroy.37
 objectdestroy.30
@@ -1917,7 +1916,7 @@ deleteAllData
 push
 getCurrentDataCount
 _withStackOrHeapBuffer
-Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/shims/FoundationOverlayShims.h
+/Applications/Xcode11.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/shims/FoundationOverlayShims.h
 $sSpySo28_ConditionalAllocationBufferaGIgy_ACIegy_TRTA
 $sSpySo28_ConditionalAllocationBufferaGIgy_ACIegy_TR
 objectdestroy.17
@@ -2015,7 +2014,7 @@ _$sSo12NSHTTPCookieCML
 _$s14PaytmAnalytics16PASessionManagerC11sendRequest12requestTuple7timeout21withCompletionHandlerySS5inUrl_yXlSg0M7JsonDicSb17isCookiesRequiredSS0mF4TypeAA09PAContentT0O0m7ContentT0SDyS2SG0m6HeaderP0Sb0q4GzipS0t_SiySb_10Foundation4DataVSgtctFTq
 _$s14PaytmAnalytics16PASessionManagerCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics16PASessionManager
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Upload/PASessionManager.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Upload/PASessionManager.swift
 $ss17_NativeDictionaryV5_keysSpyxGvgSS_SSTg5
 $s14PaytmAnalytics16CompressionLevelVWOh
 $s14PaytmAnalytics16PASessionManagerC11sendRequest12requestTuple7timeout21withCompletionHandlerySS5inUrl_yXlSg0M7JsonDicSb17isCookiesRequiredSS0mF4TypeAA09PAContentT0O0m7ContentT0SDyS2SG0m6HeaderP0Sb0q4GzipS0t_SiySb_10Foundation4DataVSgtctFyAV_So13NSURLResponseCSgs5Error_pSgtcfU_TA
@@ -2118,7 +2117,7 @@ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
 _$s14PaytmAnalytics18PASignalDispatcherC16startDispatchingyyFTq
 _$s14PaytmAnalytics18PASignalDispatcherCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics18PASignalDispatcher
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Upload/PASignalDispatcher.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Upload/PASignalDispatcher.swift
 $s14PaytmAnalytics18PASignalDispatcherC21startIntervalDispatch33_DD89CA3EC6F117FA9A5B2F09C3B7370ALL8intervalySd_tFySo7NSTimerCcfU_yycfU_TA
 $s14PaytmAnalytics18PASignalDispatcherC21startIntervalDispatch33_DD89CA3EC6F117FA9A5B2F09C3B7370ALL8intervalySd_tFySo7NSTimerCcfU_yycfU_
 runInLoop
@@ -2214,7 +2213,7 @@ _symbolic _____ 14PaytmAnalytics11PASignalLogC
 _symbolic SDySSypGSg
 _$s14PaytmAnalytics11PASignalLogCMF
 _$ss6UInt64VABSzsWL
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Data Model/Signal/PASignalLog.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Data Model/Signal/PASignalLog.swift
 $s14PaytmAnalytics11PASignalLogCMa
 $ss6UInt64Vs23CustomStringConvertiblessACP11descriptionSSvgTW
 $ss6UInt64VABSzsWl
@@ -2273,7 +2272,7 @@ _$s14PaytmAnalytics15PASignalManagerCMf
 _symbolic _____ 14PaytmAnalytics15PASignalManagerC
 _$s14PaytmAnalytics15PASignalManagerCMF
 _$s14PaytmAnalytics15PASignalManagerCACycfCTq
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Manager/PASignalManager.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Manager/PASignalManager.swift
 $s14PaytmAnalytics15PASignalManagerCMa
 flushNetworkEventData
 sendCriticalEvents
@@ -2418,7 +2417,7 @@ _$s14PaytmAnalytics15PASignalSessionC16deleteStagedData10completionyySbc_tFTq
 _$s14PaytmAnalytics15PASignalSessionC12printAllDatayyFTq
 _$s14PaytmAnalytics15PASignalSessionCN
 _OBJC_CLASS_$__TtC14PaytmAnalytics15PASignalSession
-/Users/yongxiao/Documents/jarvis-analytics-ios/PaytmAnalytics/Classes/Session/PASignalSession.swift
+/Users/annieyang/Developer/JenxierLtd/signal_v2/PaytmAnalytics/Classes/Session/PASignalSession.swift
 $s14PaytmAnalytics15PASignalSessionC18sendCriticalEvents_10completionySayAA0C3LogCG_ySb_AHSgtcSgtFyycfU_ySb_AHtcfU1_ySb_AHtcfU_TA
 objectdestroy.45
 $s14PaytmAnalytics15PASignalSessionC18sendCriticalEvents_10completionySayAA0C3LogCG_ySb_AHSgtcSgtFyycfU_ySb_AHtcfU1_TA
@@ -2627,7 +2626,7 @@ globalinit_33_0D77E832238F1ACE51A12FDCC12F7C27_func127
 $sIeg_IeyB_TR
 $sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvgs12_ArrayBufferVy14PaytmAnalytics11PASignalLogCG_Tg5
 $sSiSLsSL2leoiySbx_xtFZTW
-/Users/yongxiao/Library/Developer/Xcode/DerivedData/PaytmAnalytics-cntndiphoijewmfidngtmgcrbeia/Build/Intermediates.noindex/ArchiveIntermediates/PaytmAnalytics/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PaytmAnalytics.build/DerivedSources/PaytmAnalytics_vers.c
+/Users/annieyang/Library/Developer/Xcode/DerivedData/PaytmAnalytics-cwagpqzmqpkwnnesrrqtjfwkrrcj/Build/Intermediates.noindex/ArchiveIntermediates/PaytmAnalytics/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PaytmAnalytics.build/DerivedSources/PaytmAnalytics_vers.c
 _swift_getFunctionReplacement50
 _swift_getOrigOfReplaceable50
 /BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/llvm-macosx-x86_64/bin/clang-11 --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/CompatibilityDynamicReplacements -I /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/swift/stdlib/toolchain/CompatibilityDynamicReplacements -I include -I /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/swift/include -I /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/llvm/include -I /BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/llvm-macosx-x86_64/include -I /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/llvm/tools/clang/include -I /BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/llvm-macosx-x86_64/tools/clang/include -I /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/cmark/src -I /BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -fno-sanitize=all -D LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -O2 -D NDEBUG -isysroot /BuildRoot/CrossTrain_SwiftOverlays/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fno-exceptions -fno-rtti -Wall -Wglobal-constructors -Wexit-time-destructors -fvisibility=hidden -Wall -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibilityDynamicReplacements -fembed-bitcode=all --target=arm64-apple-ios7.0 -isysroot /BuildRoot/CrossTrain_SwiftOverlays/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk -arch arm64 -F/BuildRoot/CrossTrain_SwiftOverlays/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/../../../Developer/Library/Frameworks -F/BuildRoot/CrossTrain_SwiftOverlays/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/../../../Developer/AppleInternal/Library/Frameworks -miphoneos-version-min=7.0 -O2 -g -D NDEBUG -MD -MT stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o -MF stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o.d -o stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o -c /BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1100.0.282.1/swift/stdlib/toolchain/CompatibilityDynamicReplacements/DynamicReplaceable.cpp -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=512.4 -stdlib=libc++
