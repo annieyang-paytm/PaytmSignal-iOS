@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "PaytmAnalytics.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
-    s.ios.deployment_target = '10.0'
+    s.ios.deployment_target = '11.0'
 end
