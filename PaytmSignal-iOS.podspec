@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
     s.name         = "PaytmSignal-iOS"
     s.module_name  = "PaytmAnalytics"
-    s.version      = "10.2.3.1"
+    s.version      = "10.2.3.2"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
      - Add Apple Silicon simulator support
-     - Remove iOS 10 support
     DESC
     s.homepage     = "https://wiki.mypaytm.com/display/MAP/PaytmSignal-iOS+SDK+Integration"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -14,5 +13,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "PaytmAnalytics.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '10.0'
 end
