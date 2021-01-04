@@ -11,9 +11,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'Annie Yang' => 'annie.yang@paytm.com' }
     s.source       = { :git => 'https://github.com/annieyang-paytm/PaytmSignal-iOS', :tag => s.version.to_s }
-    s.public_header_files = "PaytmAnalytics.framework/Headers/*.h"
-    s.source_files = "PaytmAnalytics.framework/Headers/*.h"
-    s.vendored_frameworks = "PaytmAnalytics.framework"
+    s.vendored_frameworks = "PaytmAnalytics.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
     s.ios.deployment_target = '10.0'
