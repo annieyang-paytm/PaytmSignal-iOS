@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PaytmAnalytics-Swift.h</key>
 		<data>
-		GRR+J1lEUT70Z7rUW35IiR2Gwnw=
+		vLL/BTS8/0M64gohIDURK0q+Bx8=
 		</data>
 		<key>Headers/PaytmAnalytics-umbrella.h</key>
 		<data>
@@ -14,79 +14,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Vv+F6nw/kH6GrrNfyfhy+cU1lI0=
+		oKc/LE3pRUYGffLMsh5LrIUzVXo=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mQNWMJARomTb86ZKO/unvzACoPM=
+		nsffS2Q5S/RqwnfM99mQfY06abI=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yp80KLPrUq253OjhaKRMYynyoco=
+		ahUpkecjQ4/Ib2jXD5By6YAvqLk=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dOV8fIGrxPCQAL3HRy3KLlWSino=
+		0arhKkTcaa3L3TeP8In92B8NNwM=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		mQNWMJARomTb86ZKO/unvzACoPM=
+		nsffS2Q5S/RqwnfM99mQfY06abI=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		yp80KLPrUq253OjhaKRMYynyoco=
+		ahUpkecjQ4/Ib2jXD5By6YAvqLk=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		dOV8fIGrxPCQAL3HRy3KLlWSino=
+		0arhKkTcaa3L3TeP8In92B8NNwM=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2MIYWh5t2JpNXcaYITVHnu8VBKI=
+		1L8pCeAnJp86rdE92/aPWC9KofY=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MmyEN44O2wQWzdR+oiWevHvthM4=
+		ZOtfiMm5zRLF/qKsTAZsAJmNBec=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2kwzV5DYoYEGkijR/6B1hSySshQ=
+		UZYJRI5u/daXZF41pSTh/nhPf08=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftdoc</key>
 		<data>
-		2MIYWh5t2JpNXcaYITVHnu8VBKI=
+		1L8pCeAnJp86rdE92/aPWC9KofY=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftinterface</key>
 		<data>
-		MmyEN44O2wQWzdR+oiWevHvthM4=
+		ZOtfiMm5zRLF/qKsTAZsAJmNBec=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftmodule</key>
 		<data>
-		2kwzV5DYoYEGkijR/6B1hSySshQ=
+		UZYJRI5u/daXZF41pSTh/nhPf08=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CnFltomroLJ4JvL4mXO51IPqqRc=
+		uUCSpIp4xAhA94A0zsIgHkF4gRI=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VTNo+2t7CP9Rv1wwehVRcD4iObc=
+		J+dKz6tI29O1+Yskny0ynIPf3ts=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BTwZtWYx0xNldBqcvi1XYDpw+rc=
+		smj93Kw07Kh4JQAtfO46Kg39sG0=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		CnFltomroLJ4JvL4mXO51IPqqRc=
+		uUCSpIp4xAhA94A0zsIgHkF4gRI=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		VTNo+2t7CP9Rv1wwehVRcD4iObc=
+		J+dKz6tI29O1+Yskny0ynIPf3ts=
 		</data>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		BTwZtWYx0xNldBqcvi1XYDpw+rc=
+		smj93Kw07Kh4JQAtfO46Kg39sG0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GRR+J1lEUT70Z7rUW35IiR2Gwnw=
+			vLL/BTS8/0M64gohIDURK0q+Bx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0uF5YREvCwZSTDgqtn3oT2jrhJ3wEP/mcAzfDetCOIg=
+			xm+lGRamSrJlFVIGdnLgYNtWYcx11VOm9VY+g6NtZrM=
 			</data>
 		</dict>
 		<key>Headers/PaytmAnalytics-umbrella.h</key>
@@ -129,198 +129,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mQNWMJARomTb86ZKO/unvzACoPM=
+			nsffS2Q5S/RqwnfM99mQfY06abI=
 			</data>
 			<key>hash2</key>
 			<data>
-			azvjnb0e3uF00FL5CfThcZfske3Wu9tT+0hEgewikwY=
+			yhXVrceKKg8nE9HNB2S+7k2qF7+dw/vsfhQxopy5eCw=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yp80KLPrUq253OjhaKRMYynyoco=
+			ahUpkecjQ4/Ib2jXD5By6YAvqLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0V+nY0c0d0N8J64XpPENvTZK/HCDzy7W13QdpXweO70=
+			sXK81MOHDNZvkX+S+g6UayLww/ZD6NNehiQ5aKLA3jM=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dOV8fIGrxPCQAL3HRy3KLlWSino=
+			0arhKkTcaa3L3TeP8In92B8NNwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJAFC66NbaOsVSkpkFp5NqFuv1sMybCkwu2rFlnMyoM=
+			+3ZjFKFysOulL+oF0TnqtUTY4U6DAlkv4wNp9NPGwD4=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mQNWMJARomTb86ZKO/unvzACoPM=
+			nsffS2Q5S/RqwnfM99mQfY06abI=
 			</data>
 			<key>hash2</key>
 			<data>
-			azvjnb0e3uF00FL5CfThcZfske3Wu9tT+0hEgewikwY=
+			yhXVrceKKg8nE9HNB2S+7k2qF7+dw/vsfhQxopy5eCw=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yp80KLPrUq253OjhaKRMYynyoco=
+			ahUpkecjQ4/Ib2jXD5By6YAvqLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0V+nY0c0d0N8J64XpPENvTZK/HCDzy7W13QdpXweO70=
+			sXK81MOHDNZvkX+S+g6UayLww/ZD6NNehiQ5aKLA3jM=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dOV8fIGrxPCQAL3HRy3KLlWSino=
+			0arhKkTcaa3L3TeP8In92B8NNwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJAFC66NbaOsVSkpkFp5NqFuv1sMybCkwu2rFlnMyoM=
+			+3ZjFKFysOulL+oF0TnqtUTY4U6DAlkv4wNp9NPGwD4=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2MIYWh5t2JpNXcaYITVHnu8VBKI=
+			1L8pCeAnJp86rdE92/aPWC9KofY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Ws4MT7OEadRvrY6I8ywXUgdqaHnQysUZMb0UbaIRyw=
+			8Nz4vAOsgt6uHeQDiIP39nHgr7XTQdA0wRaKv/QtvQQ=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MmyEN44O2wQWzdR+oiWevHvthM4=
+			ZOtfiMm5zRLF/qKsTAZsAJmNBec=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Zpi8vyEVj3XQQwhcFVprzLHGGdyblbBfcEFQDheqs4=
+			SW/aldS25UmSve7EE9XovyyFzvHf1NfY8RQrXVhHGN8=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2kwzV5DYoYEGkijR/6B1hSySshQ=
+			UZYJRI5u/daXZF41pSTh/nhPf08=
 			</data>
 			<key>hash2</key>
 			<data>
-			tHpd5TomL8sD8QJgyLUnem4uXrTOlKRnlo5/jT9htj0=
+			neoxcHDqVefcUihjbfezliY1SREmFEWT9P769gicF+8=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2MIYWh5t2JpNXcaYITVHnu8VBKI=
+			1L8pCeAnJp86rdE92/aPWC9KofY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Ws4MT7OEadRvrY6I8ywXUgdqaHnQysUZMb0UbaIRyw=
+			8Nz4vAOsgt6uHeQDiIP39nHgr7XTQdA0wRaKv/QtvQQ=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MmyEN44O2wQWzdR+oiWevHvthM4=
+			ZOtfiMm5zRLF/qKsTAZsAJmNBec=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Zpi8vyEVj3XQQwhcFVprzLHGGdyblbBfcEFQDheqs4=
+			SW/aldS25UmSve7EE9XovyyFzvHf1NfY8RQrXVhHGN8=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2kwzV5DYoYEGkijR/6B1hSySshQ=
+			UZYJRI5u/daXZF41pSTh/nhPf08=
 			</data>
 			<key>hash2</key>
 			<data>
-			tHpd5TomL8sD8QJgyLUnem4uXrTOlKRnlo5/jT9htj0=
+			neoxcHDqVefcUihjbfezliY1SREmFEWT9P769gicF+8=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CnFltomroLJ4JvL4mXO51IPqqRc=
+			uUCSpIp4xAhA94A0zsIgHkF4gRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nEGoFTdxav+Gxp1U7k9bb722wGpzqzf3qQgc5BeiLsE=
+			IlCQ1tJzWSSOVFPP/2+d/43oKBaK74abYW183h1Z3z4=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VTNo+2t7CP9Rv1wwehVRcD4iObc=
+			J+dKz6tI29O1+Yskny0ynIPf3ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			oTS7SgCKsiIUbOUtnKGM2pGnVqL2FA3rqis0hAm1rEs=
+			TIIKoQi/v1VsvQEzXV4IUDA9chiLqRcBtpLeZAEmwYE=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BTwZtWYx0xNldBqcvi1XYDpw+rc=
+			smj93Kw07Kh4JQAtfO46Kg39sG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rFjGY2qt6Wmo6M7tYpACijruZtpz5kZ9KOET3C6Ivn8=
+			cx74ONncyewo3uSQYfYqYA8ENqJ6dzOL+S+WizRjQx8=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CnFltomroLJ4JvL4mXO51IPqqRc=
+			uUCSpIp4xAhA94A0zsIgHkF4gRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nEGoFTdxav+Gxp1U7k9bb722wGpzqzf3qQgc5BeiLsE=
+			IlCQ1tJzWSSOVFPP/2+d/43oKBaK74abYW183h1Z3z4=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VTNo+2t7CP9Rv1wwehVRcD4iObc=
+			J+dKz6tI29O1+Yskny0ynIPf3ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			oTS7SgCKsiIUbOUtnKGM2pGnVqL2FA3rqis0hAm1rEs=
+			TIIKoQi/v1VsvQEzXV4IUDA9chiLqRcBtpLeZAEmwYE=
 			</data>
 		</dict>
 		<key>Modules/PaytmAnalytics.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BTwZtWYx0xNldBqcvi1XYDpw+rc=
+			smj93Kw07Kh4JQAtfO46Kg39sG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rFjGY2qt6Wmo6M7tYpACijruZtpz5kZ9KOET3C6Ivn8=
+			cx74ONncyewo3uSQYfYqYA8ENqJ6dzOL+S+WizRjQx8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

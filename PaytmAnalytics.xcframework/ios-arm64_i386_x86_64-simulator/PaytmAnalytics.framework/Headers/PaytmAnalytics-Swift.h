@@ -267,10 +267,11 @@ SWIFT_CLASS("_TtC14PaytmAnalytics8PANCUser")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics11PASignalLog")
 @interface PASignalLog : NSObject <NSCoding>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_MSG("The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead");
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -548,10 +549,11 @@ SWIFT_CLASS("_TtC14PaytmAnalytics8PANCUser")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics11PASignalLog")
 @interface PASignalLog : NSObject <NSCoding>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_MSG("The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead");
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -829,10 +831,11 @@ SWIFT_CLASS("_TtC14PaytmAnalytics8PANCUser")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics11PASignalLog")
 @interface PASignalLog : NSObject <NSCoding>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_MSG("The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead");
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

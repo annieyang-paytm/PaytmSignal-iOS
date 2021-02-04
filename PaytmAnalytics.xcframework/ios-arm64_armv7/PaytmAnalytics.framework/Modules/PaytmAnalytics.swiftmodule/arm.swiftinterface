@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PaytmAnalytics
-import AdSupport
 import CommonCrypto
 import CoreData
 import Foundation
@@ -192,15 +191,16 @@ public protocol PANCQRDataProtocol {
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers final public class PASignalLog : ObjectiveC.NSObject, Foundation.NSCoding {
-  final public var deviceId: Swift.String?
+@objc final public class PASignalLog : ObjectiveC.NSObject, Foundation.NSCoding {
+  final public var deviceId: Swift.String
+  final public var eventType: Swift.String
+  final public var payload: [Swift.String : Any]
+  final public var deviceAdvertisementId: Swift.String?
   final public var dataTime: Swift.String? {
     get
     set
   }
-  final public var eventType: Swift.String?
   final public var customerId: Swift.String?
-  final public var clientId: Swift.String?
   final public var appVersion: Swift.String?
   final public var appLanguage: Swift.String?
   final public var deviceIp: Swift.String?
@@ -208,16 +208,14 @@ public protocol PANCQRDataProtocol {
   final public var deviceConnType: Swift.String?
   final public var deviceGeoLatitude: Swift.String?
   final public var deviceGeoLongitude: Swift.String?
-  final public var payload: [Swift.String : Any]?
-  @available(*, deprecated, message: "The default initializer is deprecated and will be removed in the next release, please use init?(eventType:timestamp:payload:deviceID:customerID:) instead")
-  @objc override dynamic public init()
-  required public init?(eventType: Swift.String, timestamp: Foundation.Date = Date(), payload: [Swift.String : Any], deviceID: Swift.String? = nil, customerID: Swift.String? = nil)
+  required public init?(eventType: Swift.String, timestamp: Foundation.Date = Date(), payload: [Swift.String : Any], deviceID: Swift.String, customerID: Swift.String? = nil)
   @objc final public func encode(with aCoder: Foundation.NSCoder)
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   @objc override final public var description: Swift.String {
     @objc get
   }
   @objc deinit
+  @objc override dynamic public init()
 }
 @_hasMissingDesignatedInitializers public class PASignalManager {
   public static let shared: PaytmAnalytics.PASignalManager
