@@ -176,6 +176,15 @@ public protocol PANCQRDataProtocol {
   final public var isWinner: Swift.Bool?
   final public var qrVersion: Swift.Int?
   final public var correctionLevel: Swift.String?
+  final public var scanClick_enterAmount: Swift.Int?
+  final public var scanClick_firstFrame: Swift.Int?
+  final public var firstFrame_QrFound: Swift.Int?
+  final public var qrFound_qrResolution: Swift.Int?
+  final public var qrResolution_enterAmount: Swift.Int?
+  final public var Tbackend: Swift.Int?
+  final public var Tcache: Swift.Int?
+  final public var action: Swift.String?
+  final public var trigger_point: Swift.String?
   final public func dictionaryRepresentation() -> [Swift.String : Any]
   @objc final public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()

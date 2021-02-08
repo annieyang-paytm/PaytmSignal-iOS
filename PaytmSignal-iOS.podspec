@@ -1,12 +1,10 @@
 Pod::Spec.new do |s|
     s.name         = "PaytmSignal-iOS"
     s.module_name  = "PaytmAnalytics"
-    s.version      = "12.0.0"
+    s.version      = "12.1.0"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
-     - Expose deviceAdvertisementId to the client app per the new user permission needed from iOS 14.5 and later
-     - Make deviceId as a required field pass into the SDK 
-     - Bug fixes 
+     - Add extra properties to PANCQRData
     DESC
     s.homepage     = "https://wiki.mypaytm.com/display/MAP/PaytmSignal-iOS+SDK+Integration"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
