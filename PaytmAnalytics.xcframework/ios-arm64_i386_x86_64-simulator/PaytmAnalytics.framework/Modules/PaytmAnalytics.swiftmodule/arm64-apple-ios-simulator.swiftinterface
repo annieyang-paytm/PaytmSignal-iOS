@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PaytmAnalytics
 import CommonCrypto
 import CoreData
@@ -113,6 +113,18 @@ public protocol PANCQRDataProtocol {
   final public var storageFreeSize: Swift.Int?
   final public var PID: Swift.String?
   final public var categoryId: Swift.String?
+  final public var deviceName: Swift.String?
+  final public var simCount: Swift.Int?
+  final public var slotCount: Swift.Int?
+  final public var isRooted: Swift.Bool?
+  final public var installSize: Swift.Double?
+  final public var cpuUsed: Swift.Double?
+  final public var networkSwitch: Swift.String?
+  final public var threadCount: Swift.Int?
+  final public var isCharging: Swift.Bool?
+  final public var processState: Swift.String?
+  final public var appDataSize: Swift.Double?
+  final public var networkSwitchCount: Swift.Int?
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   final public func dictionaryRepresentation() -> [Swift.String : Any]
   @objc final public func encode(with aCoder: Foundation.NSCoder)

@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
     s.name         = "PaytmSignal-iOS"
     s.module_name  = "PaytmAnalytics"
-    s.version      = "12.1.0"
+    s.version      = "12.2.0"
     s.summary      = "Paytm iOS Signal framework - Analytics"
     s.description  = <<-DESC
-     - Add extra properties to PANCQRData
+     - Add extra properties to PANCEvent
     DESC
     s.homepage     = "https://wiki.mypaytm.com/display/MAP/PaytmSignal-iOS+SDK+Integration"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
