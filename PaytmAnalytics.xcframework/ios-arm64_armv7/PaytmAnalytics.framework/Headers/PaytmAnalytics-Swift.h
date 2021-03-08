@@ -249,6 +249,14 @@ SWIFT_CLASS("_TtC14PaytmAnalytics12PANCMTQRData")
 @end
 
 
+SWIFT_CLASS("_TtC14PaytmAnalytics12PANCPerfData")
+@interface PANCPerfData : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC14PaytmAnalytics10PANCQRData")
 @interface PANCQRData : NSObject <NSCoding>
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
@@ -525,6 +533,14 @@ SWIFT_CLASS("_TtC14PaytmAnalytics7PANCLog")
 
 SWIFT_CLASS("_TtC14PaytmAnalytics12PANCMTQRData")
 @interface PANCMTQRData : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14PaytmAnalytics12PANCPerfData")
+@interface PANCPerfData : NSObject <NSCoding>
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

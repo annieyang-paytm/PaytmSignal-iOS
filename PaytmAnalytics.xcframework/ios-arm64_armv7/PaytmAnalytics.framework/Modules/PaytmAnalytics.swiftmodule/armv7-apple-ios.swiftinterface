@@ -125,6 +125,8 @@ public protocol PANCQRDataProtocol {
   final public var processState: Swift.String?
   final public var appDataSize: Swift.Double?
   final public var networkSwitchCount: Swift.Int?
+  final public var appSessionId: Swift.String?
+  final public var perfData: PaytmAnalytics.PANCQRDataProtocol?
   @objc public init?(coder aDecoder: Foundation.NSCoder)
   final public func dictionaryRepresentation() -> [Swift.String : Any]
   @objc final public func encode(with aCoder: Foundation.NSCoder)
@@ -169,6 +171,22 @@ public protocol PANCQRDataProtocol {
   final public var timeTaken: Swift.Int64?
   final public var eventStartTime: Swift.Int64?
   final public var eventEndTime: Swift.Int64?
+  final public func dictionaryRepresentation() -> [Swift.String : Any]
+  @objc final public func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  @objc required public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class PANCPerfData : ObjectiveC.NSObject, Foundation.NSCoding, PaytmAnalytics.PANCQRDataProtocol {
+  final public var eventName: Swift.String?
+  final public var traceSessionId: Swift.String?
+  final public var traceGroupName: Swift.String?
+  final public var traceName: Swift.String?
+  final public var traceTime: Swift.Double?
+  final public var traceDynamicAttributes: [Swift.String : Swift.String]?
+  final public var traceStartTime: Swift.Double?
+  final public var traceEndTime: Swift.Double?
+  final public var flowName: Swift.String?
   final public func dictionaryRepresentation() -> [Swift.String : Any]
   @objc final public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
